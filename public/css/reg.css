@@ -1,0 +1,52 @@
+:root{
+    --mainWhite: #eceff1;
+    --mainDark: #263238;
+    --midDark: #cfd8dc;
+}
+
+body{
+    background-color:var(--mainDark);
+    font-family: 'Roboto','Open Sans','Helvetica' sans-serif;
+    color:var(--mainDark);
+}
+.card .card-form{
+    background-color:var(--mainWhite);
+}
+.card-body{
+    background-color:var(--mainWhite);
+    text-decoration:none;
+    color:var(--mainDark);
+    
+    
+}
+.card-body h4{
+    margin-bottom:1.87rem;
+}
+
+#logInCard{
+    background-color:var(--mainWhite);
+    margin-top:150px;
+    padding:0;
+    border:1px solid var(--mainWhite);
+
+}
+
+.card-body .btn{
+    display:block;
+    min-width:100%;
+    background-color:var(--mainDark);
+
+}
+
+ul.nav.nav-tabs li a {
+    margin-right:1rem;
+    font-size:1rem;
+    color:var(--mainDark);
+}
+
+.nav.nav-tabs li{
+    margin:0;
+    padding:9.6px;
+}
+
+
